@@ -8,5 +8,6 @@ This project is based on a TENS (Transcutaneous Electrical Nerve Stimulation) un
 - The output signal from the first monostable timer is fed into a non-inverting operational amplifier to buffer and isolate the waveform.
 - The signal from the second monostable timer is passed through an inverting operational amplifier to produce a polarity-reversed pulse.
 - Both amplifier outputs are routed through current-limiting resistors to ensure safe delivery of the stimulation pulses.
+- The circuit was simulated in LTspice with various output loads between 1 kΩ and 10 kΩ (representing typical skin resistance), verifying that the maximum output current remained below 3.5 mA.
 ## PCB Layout
-- The schematic was translated into a PCB layout featuring a dual-layer board for hardware testing.  
+The schematic was converted into a dual-layer PCB layout, designed for reliable hardware testing and future prototyping. 
