@@ -4,10 +4,11 @@ This project is based on a TENS (Transcutaneous Electrical Nerve Stimulation) un
 - An astable 555 timer circuit was first designed to generate a pulse train with the desired frequency.
 - This signal was used to trigger a monostable 555 timer, configured to produce a pulse of the desired width on each falling edge.
 - A differentiator circuit was then used to extract the falling edge of the monostable output, which was used to trigger a second monostable timer, producing an equal-width pulse.
+-  A waveform was produced with a pulse width of about 200 µs at a frequency of 10 Hz.
 ## Signal Conditioning
 - The output signal from the first monostable timer is fed into a non-inverting operational amplifier to buffer and isolate the waveform.
 - The signal from the second monostable timer is passed through an inverting operational amplifier to produce a polarity-reversed pulse.
 - Both amplifier outputs are routed through current-limiting resistors to ensure safe delivery of the stimulation pulses.
 - The circuit was simulated in LTspice with various output loads between 1 kΩ and 10 kΩ (representing typical skin resistance), verifying that the maximum output current remained below 3.5 mA.
 ## PCB Layout
-The schematic was converted into a dual-layer PCB layout, designed for reliable hardware testing and future prototyping. 
+The schematic was converted into a dual-layer PCB layout, designed for reliable hardware testing and future &micro;prototyping. 
