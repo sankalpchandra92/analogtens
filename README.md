@@ -1,1 +1,1 @@
-# analogtens
+# Analog TENS Signal generator
