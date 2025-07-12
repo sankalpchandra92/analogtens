@@ -3,7 +3,7 @@ This project is based on a TENS (Transcutaneous Electrical Nerve Stimulation) un
 ## Waveform Generation
 - An astable 555 timer circuit was first designed to generate a pulse train with the desired frequency.
 ![Schematic](Images/astable.png)
-![Schematic](images/v1_op.png)
+![Schematic](Images/v1_op.png)
 - The timing resistors were adjusted for the desired frequency.
 ![Schematic](Images/freq_formula.png)
 - This signal was used to trigger a monostable 555 timer, configured to produce a pulse of the desired width on each falling edge.
