@@ -7,7 +7,6 @@ This project is based on a TENS (Transcutaneous Electrical Nerve Stimulation) un
 - A differentiator circuit was then used to extract the falling edge of the monostable output, which was used to trigger a second monostable timer, producing an equal-width pulse.
 - The timing resistors of the monostable stage circuit were adjusted for the desired pulse width.
 - Final waveform was produced with a pulse width of about 200 &micro;s at a frequency of 14 Hz.
--![E=mc^2](https://latex.codecogs.com/svg.image?E=mc^2)
 ## Signal Conditioning
 - The output signal from the first monostable timer is fed into a non-inverting operational amplifier to buffer and isolate the waveform.
 - The signal from the second monostable timer is passed through an inverting operational amplifier to produce a polarity-reversed pulse.
